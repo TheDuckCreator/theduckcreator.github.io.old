@@ -19,6 +19,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .left{
     text-align: left;
 }
+.right{
+    text-align: right;
+}
 /*frontpage*/
 .display-logo-main{
     margin-top:2em;
@@ -46,6 +49,13 @@ img.frontpagephoto{
     margin:1em;
     width: 100px;
     height: 100px;
+}
+img.my-app-logo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    height: 200px;
 }
 .mybadge{
     font-size: 14px;
